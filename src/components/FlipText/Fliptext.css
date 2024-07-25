@@ -1,0 +1,11 @@
+.filp-container{
+    position: relative;
+    overflow: hidden;
+}
+.filp-container div span{
+    display: inline-block;
+}
+.filp-container div:nth-child(2){
+    position: absolute;
+    inset: 0;
+}

@@ -1,0 +1,70 @@
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 50px;
+  padding: 10px;
+  margin-right: 70px;
+}
+.social-menu {
+  display: flex;
+  gap: 9rem;
+}
+.social-menu .sidebar-first-section,
+.social-menu .sidebar-second-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-first-section .social-title,
+.sidebar-second-section .pages-title {
+  color: rgb(158, 157, 157);
+  font-size: 14px;
+}
+.sidebar-first-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  font-weight: 370;
+  font-size: 15px;
+}
+.sidebar-first-section ul li a {
+  color: black;
+}
+.sidebar-second-section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 30px;
+  font-weight: 300;
+}
+.sidebar-second-section ul li a {
+    color: rgb(71, 68, 68);
+  }
+
+.get-in-touch {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.get-in-touch p {
+  color: rgb(158, 157, 157);
+  font-size: 14px;
+}
+.get-in-touch a{
+    font-weight: 300;
+}
+.get-in-touch hr{
+    border: none;
+    width: 100%;
+    height: 1px;
+    border-radius: 50px;
+    background-color: rgb(172, 163, 163);
+}

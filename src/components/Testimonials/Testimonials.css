@@ -1,0 +1,84 @@
+.testimonials-section {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 50px 50px;
+}
+.testimonial-section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigate-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.navigate-buttons div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 18px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.navigate-buttons div:hover {
+  transform: scale(0.9);
+  /* background-color: red; */
+}
+.navigate-buttons .prev-button svg,
+.navigate-buttons .next-button svg {
+  font-size: 25px;
+  border-radius: 50px;
+}
+.navigate-buttons .prev-button.disabled{
+    opacity: 0.5;
+}
+.navigate-buttons .next-button.disabled {
+    opacity: 0.5;
+}
+
+/* swiper styles */
+.testimonial-section-swiper {
+  margin-top: 20px;
+  /* background-color: red; */
+  padding: 20px 100px;
+}
+
+.client-swiper-child {
+  display: flex;
+  gap: 100px;
+}
+
+.client-swiper-child .client-picture img {
+  width: 330px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.client-swiper-child .client-review {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.client-swiper-child .client-review .client-dtls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.client-swiper-child .client-review .client-dtls p:nth-child(1){
+   font-size: 25px;
+   color: rgb(19, 19, 100);
+}
+.client-swiper-child .client-review .client-dtls p:nth-child(2){
+   font-size: 20px;
+   color: rgb(150, 146, 146);
+}
+.client-swiper-child .client-review .client-detailed-review{
+    font-size: clamp(19px,4vw,23px);
+}

@@ -1,0 +1,74 @@
+/* use this file to write all the global css styles rather than App.css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+body{
+  background-color: rgb(227, 248, 255);
+}
+.app {
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins";
+}
+.app.blur-app{
+  opacity: 0.7;
+  
+}
+
+.flex-col{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+.apart-section-title{
+  font-family: "Montserrat";
+  font-weight: 350;
+  font-size: 80px;
+}
+.project-section-title{
+  font-family: "Montserrat";
+  font-weight: 350;
+  font-size: 80px;
+  text-align: center;
+}
+.project-section-title p:nth-child(1){
+  margin-right: 100px;
+}
+.project-section-title p:nth-child(2){
+  margin-right: -100px;
+}
+
+.howdowedo-section-title{
+  font-family: "Montserrat";
+  font-weight: 350;
+  font-size: 80px;
+}
+
+.services-section-title{
+  font-family: "Montserrat";
+  font-size: 100px;
+  font-weight: 350;
+  color: rgb(151, 210, 250);
+}
+
+.testimonials-title{
+  font-family: "Montserrat";
+  font-size: 80px;
+  font-weight: 400;
+  background:linear-gradient(to right,blue , yellow,red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ::selection{
+  color: rgb(57, 57, 56);
+} */

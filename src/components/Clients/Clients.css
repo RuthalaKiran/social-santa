@@ -1,0 +1,64 @@
+.clients-section {
+  width: 100%;
+  height: auto;
+  background-color: rgb(237, 237, 237);
+  padding: 40px 50px 40px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.client-section-titles {
+  display: flex;
+  align-items: center;
+  padding: 30px 100px;
+}
+.client-section-title {
+  width: 50%;
+  font-size: 50px;
+  font-weight: 500;
+}
+.client-section-title .trusted-by {
+  font-size: 55px;
+  color: red;
+}
+.client-section-title p:nth-child(2) {
+  color: rgb(48, 47, 47);
+}
+.client-section-subtitle {
+  width: 50%;
+  font-size: 23px;
+  color: rgb(53, 52, 52);
+}
+
+/* images */
+.clients-section-clients {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 50px 50px 50px;
+}
+.client-images-container {
+  width: 80%;
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 20px;
+}
+.client-images-container div {
+  margin: 0 auto;
+}
+
+.client-images-container .client img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.2s;
+  padding: 5px;
+}
+.client-images-container .client.client-active img {
+  box-shadow: 0 0 3px rgb(192, 192, 192), 0 0 5px rgb(192, 192, 192) inset;
+}
