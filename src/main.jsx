@@ -6,9 +6,9 @@ import { BrowserRouter,HashRouter } from "react-router-dom";
 import SmoothScrolling from "./Utils/SmoothScrolling.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <HashRouter>
+  <BrowserRouter>
     <SmoothScrolling>   
       <App />
     </SmoothScrolling>
-  </HashRouter>
+  </BrowserRouter>
 );
